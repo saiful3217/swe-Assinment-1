@@ -1,0 +1,142 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.bgs{
+    background-image: url("./resources/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.fc{
+    color: #EDEDED;
+}
+.motherf-border{
+    background: #0E071B;
+}
+.simg1{
+
+    width: 300px;
+    margin: auto;
+    padding: 40px;
+    align-items: center;
+}
+.simg2{
+
+    width: 500px;
+    margin: auto;
+    padding: 40px;
+    align-items: center;
+}
+.dbg{
+    background: #ADC2D7;
+}
+.air{
+    font-weight:bold ;
+}
+.scol{
+    background: #EDEDED;
+}
+.bg{
+    background-color: white;
+}
+.fcolo{
+    color: white;
+}
+.mother{
+    background-color:  #958AD4;
+    margin-top: 10px;
+    height: 800px;
+}
+.cont{
+     display: flex; 
+    width: 160px;
+    height: 128px;
+    min-width: 135px;
+    padding: 24px 52px;
+    flex-direction: column; 
+    justify-content: center;
+     align-items: center;
+    gap: 8px; 
+    border-radius: 15px;
+}
+.mother{
+    background-color:  #958AD4;
+    margin-top: 10px;
+    height: 400px;
+}
+.bkg{
+    padding-top: 90px;
+    background-color: #FAFAFA;
+    height: 400px;
+
+}
+.maincont
+{
+    background: #FAFAFA;
+}
+/* .parent-div{
+    display: flex;
+width: 1440px;
+padding: 56px 160px;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+background: #FFFFFF ;
+} */
+
+.dis1{
+    font-size: 70px;
+    font-weight: bold;
+}
+.dd{
+    display: flex;
+/* align-items: flex-start ; */
+gap: 32px;
+/* align-self: stretch; */
+/* margin-left: 10px; */
+padding-top: 30px;
+padding-left: 70px;
+height: 50px;
+}
+.card{
+    background-color: #F6F6F6;
+    border-radius: 15px;
+}
+@media screen and (max-width: 425px) {
+    .bkg{
+        padding-top: 50px;
+        height: 105vh;
+    }
+    .mother{
+        
+        height: 800px;
+    }
+
+    .simg1{
+
+        width: 200px;
+        margin: auto;
+        padding: 50px;
+        height: 80vh;
+        align-items: center;
+    }
+    .simg2{
+
+        width: 260px;
+        margin: auto;
+        padding: 70px;
+        /* padding:  30px ; */
+        align-items: center;
+        /* justify-items: center; */
+        height: 80vh;
+        display: flex;
+        
+    }
+
+    .dbg{
+        background: #ADC2D7;
+    }
+
+  }
